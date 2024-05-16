@@ -2,10 +2,9 @@ Go to http://hourofpython.com / Pick “Number of Things Challenge”
 It’s our last class!
 Check out the class (and notes) at: https://github.com/softwaremud/sccl-python-S24
 
-# 1) take the 5 point star we drew last week and incorporate it in a
-# function.  Can you modify this program to draw 3 different 5-point
-# stars in different places on the screen?
+## 1: take the 5 point star we drew last week and incorporate it in a function.  Can you modify this program to draw 3 different 5-point stars in different places on the screen?
 
+```
 import turtle
 
 tina = turtle.Turtle()
@@ -27,13 +26,12 @@ tina.setx(-100)
 tina.sety(-100)
 tina.pendown()
 draw_a_star()
+```
 
 
+## 2: what if we do a while loop to make the turtle move left, but we want them to turn around when they hit the edge of the screen?  How would you handle each of the screen’s 4 sides?
 
-# 2) what if we do a while loop to make the turtle move left, but we
-# want them to turn around when they hit the edge of the screen?   
-# How would you handle each of the screen’s 4 sides?
-
+```
 import turtle
 
 tina = turtle.Turtle()
@@ -44,12 +42,13 @@ while True:
   print(tina.pos())
   if (tina.pos()[0] > 200):
 	tina.left(144)
+```
 
-#3) This code shows a class.  The class has a function that knows
-# how to make a star with different segments.
-# Can you modify the program to: capture the number of segments
-# and different angles?
+## 3: This code shows a class.  The class has a function that knows how to make a star with different segments.
 
+Can you modify the program to: capture the number of segments and different angles?
+
+```
 import turtle
 
 tina = turtle.Turtle()
@@ -76,3 +75,4 @@ shape.color = raw_input("What color?")
 # write your code here
 
 shape.draw()
+```
