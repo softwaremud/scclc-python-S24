@@ -4,12 +4,6 @@ We are going to use python like a calculator.  At the same time, we will learn a
 
 **<< Read chapter 2 >>**
 
-Let’s start doing some math.  In that same box, we are going to type out some new commands that use numbers.
-
-```print(3 * 52)```
-
-**>>> Wait for results.  Discuss**
-
 Here are some of the operators in python
 
 * Plus +
@@ -32,3 +26,15 @@ stolen_coins = 3
 print(coins - stolen_coins)
 ```
 
+
+### Instructions
+
+* Log into your chrome books
+* Open a web-browser
+* Go to the website "hourofpython.com"
+* Go to "Lowercase challenge"
+* Scroll down to the python box
+* Delete all the code in the box
+* Start doing the exercises we have listed here.
+* Ask your neighbor for help - raise your hand if you need my assistance!
+* Explore and try new things
